@@ -1,0 +1,14 @@
+name: HomeManager
+main: zensage_x\HomeManager\HomeManager
+version: 1.0.0
+api: [4.0.0, 5.0.0]
+author: zensage_x
+
+commands:
+ home:
+  description: HomeManager
+  permission: player.cmd
+
+permissions:
+ player.cmd:
+  default: true
