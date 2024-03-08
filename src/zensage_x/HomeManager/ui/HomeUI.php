@@ -2,7 +2,6 @@
 
 namespace zensage_x\HomeManager\ui;
 
-use pocketmine\utils\Config;
 use pocketmine\player\Player;
 
 use zensage_x\HomeManager\HomeManager;
@@ -11,7 +10,6 @@ use zensage_x\HomeManager\formapi\SimpleForm;
 class HomeUI{
     
     private HomeManager $plugin;
-    private Config $data;
     
     public function __construct(HomeManager $plugin){
         $this->plugin = $plugin;
